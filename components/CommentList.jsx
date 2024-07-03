@@ -5,10 +5,11 @@ export default function CommentList() {
 
 	useEffect(() => {
 		async function fetchComments() {
-			const res = await fetch('/api/comments');
+			const res = await fetch('/api/whiskey-list/list');
+			// const data = await res;
 			const data = await res.json();
-			setComments(data.comments);
-			console.log('comments:', data.comments);
+			console.log('data:', data);
+			setComments(data.list);
 		}
 		fetchComments();
 	}, []);
