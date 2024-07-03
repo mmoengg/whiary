@@ -6,7 +6,6 @@ export default function CommentList() {
 	useEffect(() => {
 		async function fetchComments() {
 			const res = await fetch('/api/whiskey-list/list');
-			// const data = await res;
 			const data = await res.json();
 			console.log('data:', data);
 			setComments(data.list);
@@ -17,11 +16,13 @@ export default function CommentList() {
 	return (
 		<div>
 			<h2>Comments</h2>
-			{/* <ul>
+			<ul>
 				{comments.map(comment => (
-					<li key={comment._id}>{comment.content}</li>
+					<li key={comment._id} className="text-white">
+						{comment.name}
+					</li>
 				))}
-			</ul> */}
+			</ul>
 		</div>
 	);
 }
