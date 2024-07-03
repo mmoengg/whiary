@@ -17,17 +17,17 @@ export default function Layout({ children }) {
 					</li>
 					<li className={`gnb ${router.pathname === '/lists' ? 'gnb--active' : ''}`}>
 						<Link href="/lists" className="w-full h-full flex items-center justify-center ">
-							<Image src="/images/svg/i-list.svg" width={14} height={14} alt="home" />
+							<Image src="/images/svg/i-list.svg" width={16} height={16} alt="home" />
 						</Link>
 					</li>
 					<li className={`gnb ${router.pathname === '/wishs' ? 'gnb--active' : ''}`}>
 						<Link href="/wishs" className="w-full h-full flex items-center justify-center ">
-							<Image src="/images/svg/i-wish.svg" width={14} height={14} alt="home" />
+							<Image src="/images/svg/i-wish.svg" width={18} height={18} alt="home" />
 						</Link>
 					</li>
 					<li className={`gnb ${router.pathname === '/mypages' ? 'gnb--active' : ''}`}>
 						<Link href="/mypages" className="w-full h-full flex items-center justify-center ">
-							<Image src="/images/svg/i-mypage.svg" width={14} height={14} alt="home" />
+							<Image src="/images/svg/i-mypage.svg" width={11} height={11} alt="home" />
 						</Link>
 					</li>
 				</ul>

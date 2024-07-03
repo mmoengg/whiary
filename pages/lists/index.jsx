@@ -1,5 +1,9 @@
-import React from 'react';
+import List from '@/components/lists/list-list/List';
 
 export default function Lists() {
-	return <div>list</div>;
+	return (
+		<>
+			<List />
+		</>
+	);
 }

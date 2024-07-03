@@ -7,21 +7,21 @@ export default function Tried() {
 			<ul className="flex flex-col gap-2 overflow-auto">
 				<li className="flex items-center justify-between">
 					<div className="flex items-center gap-3">
-						<Image src="/images/food/food1.jpg" width={40} height={40} alt="food1" className="rounded-2xl bg-white" />
+						<Image src="/images/svg/i-plus.svg" width={40} height={40} alt="" className="rounded-2xl bg-white" />
 						<p className="text-xs">Talisker</p>
 					</div>
 					<div className="w-[35px] h-[35px] text-secondary-900 text-xs border border-secondary-900 rounded-full flex items-center justify-center">5</div>
 				</li>
 				<li className="flex items-center justify-between">
 					<div className="flex items-center gap-3">
-						<Image src="/images/food/food1.jpg" width={40} height={40} alt="food1" className="rounded-2xl bg-white" />
+						<Image src="/images/svg/i-plus.svg" width={40} height={40} alt="" className="rounded-2xl bg-white" />
 						<p className="text-xs">Maker’s Mark</p>
 					</div>
 					<div className="w-[35px] h-[35px] text-secondary-900 text-xs border border-secondary-900 rounded-full flex items-center justify-center">5</div>
 				</li>
 				<li className="flex items-center justify-between">
 					<div className="flex items-center gap-3">
-						<Image src="/images/food/food1.jpg" width={40} height={40} alt="food1" className="rounded-2xl bg-white" />
+						<Image src="/images/svg/i-plus.svg" width={40} height={40} alt="" className="rounded-2xl bg-white" />
 						<p className="text-xs">The Balvenie</p>
 					</div>
 					<div className="w-[35px] h-[35px] text-secondary-900 text-xs border border-secondary-900 rounded-full flex items-center justify-center">5</div>
