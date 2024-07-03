@@ -6,10 +6,10 @@ export default function Layout({ children }) {
 	const router = useRouter();
 
 	return (
-		<div className="w-screen h-screen flex items-center justify-center bg-stone-500">
+		<div className="w-screen h-screen  min-h-[600px]  flex items-center justify-center bg-stone-500">
 			<div className="w-full h-full max-w-[393px] max-h-[852px] p-5 bg-black flex flex-col rounded-xl items-center justify-end drop-shadow-2xl">
 				{children}
-				<ul className="w-full h-full max-h-[65px] flex items-center justify-between">
+				<ul className="w-full h-[65px] flex items-center justify-between">
 					<li className={`gnb ${router.pathname === '/' ? 'gnb--active' : ''}`}>
 						<Link href="/" className="w-full h-full flex items-center justify-center ">
 							<Image src="/images/svg/i-main.svg" width={14} height={14} alt="home" />
