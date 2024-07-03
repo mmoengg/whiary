@@ -10,10 +10,10 @@ module.exports = {
 		extend: {
 			colors: {
 				primary: {
-					// DEFAULT: '#',
+					DEFAULT: '#BB6350',
 				},
 				secondary: {
-					// DEFAULT: '#',
+					DEFAULT: '#D9D9D9',
 				},
 			},
 			backgroundImage: {
