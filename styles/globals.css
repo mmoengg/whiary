@@ -30,7 +30,7 @@ body {
 
 @layer utilities {
   .gnb {
-    @apply px-9 h-[45px] flex items-center rounded-3xl bg-transparent invert brightness-100 cursor-pointer
+    @apply w-[86px] h-[45px] rounded-3xl bg-transparent invert brightness-100 cursor-pointer
   }
   .gnb.gnb--active{
     @apply bg-white invert-0 brightness-[1]
