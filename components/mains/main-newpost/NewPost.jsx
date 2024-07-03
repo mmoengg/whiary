@@ -8,12 +8,7 @@ export default function NewPost() {
 				<p>오늘 즐긴 위스키 기록하기</p>
 			</div>
 			<div className="cursor-pointer w-[35px] h-[35px] rounded-full bg-black flex items-center justify-center">
-				<Image
-					src="/images/svg/i-plus.svg"
-					alt="profile"
-					width={10}
-					height={10}
-				></Image>
+				<Image src="/images/svg/i-plus.svg" alt="profile" width={10} height={10}></Image>
 			</div>
 		</div>
 	);

@@ -8,13 +8,7 @@ export default function Profile() {
 				<p>Welcome back</p>
 			</div>
 			<div>
-				<Image
-					src="/images/sik111.png"
-					alt="profile"
-					width={56}
-					height={56}
-					className="rounded-full"
-				/>
+				<Image src="/images/sik111.png" alt="profile" width={56} height={56} className="rounded-full" />
 			</div>
 		</div>
 	);

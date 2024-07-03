@@ -11,12 +11,7 @@ export default function Recommend() {
 				<div className="h-full  flex flex-1 flex-col items-start justify-between">
 					<h1 className="text-[28px] font-extrabold leading-8">The Dalmore</h1>
 					<div className="cursor-pointer w-[35px] h-[35px] rounded-full bg-black flex items-center justify-center">
-						<Image
-							src="/images/svg/i-arr-diagonal.svg"
-							alt="profile"
-							width={12}
-							height={12}
-						></Image>
+						<Image src="/images/svg/i-arr-diagonal.svg" alt="profile" width={12} height={12}></Image>
 					</div>
 					{/* <div>
 						<Image
@@ -29,13 +24,7 @@ export default function Recommend() {
 					</div> */}
 				</div>
 				<div className="flex-1">
-					<Image
-						scr="/images/svg/i-arr-diagonal.svg"
-						alt="profile"
-						width={160}
-						height={160}
-						className="rounded-2xl bg-white"
-					/>
+					<Image scr="/images/svg/i-arr-diagonal.svg" alt="profile" width={160} height={160} className="rounded-2xl bg-white" />
 				</div>
 			</div>
 			<ul className="px-6 pb-2 h-[calc(10%)] flex text-sm gap-5">
