@@ -7,7 +7,7 @@ export default function Layout({ children }) {
 
 	return (
 		<div className="w-screen h-screen flex items-center justify-center bg-stone-500">
-			<div className="w-full h-full bg-black flex flex-col items-center justify-end">
+			<div className="w-full h-full max-w-[752px] bg-black flex flex-col items-center justify-end">
 				{children}
 				<ul className="p-5 w-full flex items-center justify-between">
 					<li className={`gnb ${router.pathname === '/' ? 'gnb--active' : ''}`}>
