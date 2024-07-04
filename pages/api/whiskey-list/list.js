@@ -5,6 +5,7 @@ async function handler(req, res) {
 	const db = client.db(process.env.MONGO_DB);
 	const list = await db.collection('list').find().toArray();
 	res.status(200).json({ list });
+	console.log('연결 성공');
 	client.close();
 }
 
