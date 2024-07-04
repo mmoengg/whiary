@@ -8,9 +8,9 @@ export default function Layout({ children }) {
 
 	return (
 		<div className="w-screen h-screen flex items-center justify-center bg-stone-500">
-			<div className="w-full h-full max-w-[752px] bg-black flex flex-col items-center justify-end">
+			<div className="w-full h-full max-w-[752px] min-w-[330px] min-h-[590px] overflow-auto bg-black flex flex-col items-center justify-end">
 				<ContentContainer>{children}</ContentContainer>
-				<ul className="px-4 h-[77px] w-full flex items-center justify-between">
+				<ul className="px-4 min-h-[77px] w-full flex items-center justify-between">
 					<li className={`gnb ${router.pathname === '/' ? 'gnb--active' : ''}`}>
 						<Link href="/" className="w-full h-full flex items-center justify-center ">
 							<Image src="/images/svg/i-main.svg" width={14} height={14} alt="home" />
