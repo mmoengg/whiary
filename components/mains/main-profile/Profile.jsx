@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Profile() {
 	return (
-		<div className="p-5 pb-0 w-full flex items-center justify-between">
+		<div className="w-full flex items-center justify-between">
 			<div className="text-white">
 				<p>Hi 🖐️ Moeng!</p>
 				<p>Welcome back</p>
